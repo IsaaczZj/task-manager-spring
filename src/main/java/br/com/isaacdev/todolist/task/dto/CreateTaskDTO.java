@@ -12,7 +12,7 @@ public record CreateTaskDTO(
     String description,
 
     @NotBlank(message = "Titulo e obrigatorio")
-    @Size(max = 50, message = "O titulo deve ter no maximo 50 caracteres")
+    @Size(max = 50, message = "O titulo deve ter no máximo 50 caracteres")
     String title,
 
     @NotNull(message = "Data de inicio e obrigatoria")
